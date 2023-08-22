@@ -1,7 +1,6 @@
-package Main;
+package InsuranceProject.Main;
 
 import java.util.Objects;
-
 public class Claim {
     private Integer claimId;
     private boolean doesPolicyExist;

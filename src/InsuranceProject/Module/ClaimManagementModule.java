@@ -1,17 +1,17 @@
-package Module;
+package InsuranceProject.Module;
 
-import InsuranceProject.entity.Claim;
-import InsuranceProject.entity.Customer;
-import InsuranceProject.entity.Policy;
+import InsuranceProject.Main.Claim;
+import InsuranceProject.Main.Customer;
+import InsuranceProject.Main.Policy;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-import static InsuranceProject.module.CustomerManagementModule.findCustomer;
-import static InsuranceProject.module.PolicyManagementModule.policyMap;
+import static InsuranceProject.Module.CustomerManagementModule.findCustomer;
+import static InsuranceProject.Module.PolicyManagementModule.policyMap;
 
-public class ClaimsManagementModule {
+public class ClaimManagementModule {
     public static final Map<Integer, Claim> claimMap = new HashMap<>();
     public static Scanner scanner = new Scanner(System.in);
 
@@ -71,5 +71,4 @@ public class ClaimsManagementModule {
 
 
     }
-
 }

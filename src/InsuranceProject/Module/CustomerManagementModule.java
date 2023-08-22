@@ -1,6 +1,6 @@
-package Module;
+package InsuranceProject.Module;
 
-import InsuranceProject.entity.Customer;
+import InsuranceProject.Main.Customer;
 
 import java.util.*;
 
@@ -39,7 +39,6 @@ public class CustomerManagementModule {
 
     public static Customer findCustomer(int id){
         return  customerMap.get(id);
-
     }
 
     public static Customer updateCustomer(Customer customer){
@@ -77,7 +76,5 @@ public class CustomerManagementModule {
         custToDelete.setPhoneNumber("");
         //custToDelete.setId(Integer.valueOf(""));
         System.out.println("\t              Customer details deleted successfully. ");
-
     }
-
 }

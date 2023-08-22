@@ -1,14 +1,15 @@
-package Module;
+package InsuranceProject.Module;
 
-import InsuranceProject.entity.Customer;
-import InsuranceProject.entity.Policy;
+import InsuranceProject.Main.Customer;
+import InsuranceProject.Main.Policy;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.UUID;
 
-import static InsuranceProject.module.CustomerManagementModule.createCustomer;
+import static InsuranceProject.Module.CustomerManagementModule.createCustomer;
+
 
 public class PolicyManagementModule {
     public static final Map<Integer, Policy> policyMap = new HashMap<>();
@@ -89,5 +90,4 @@ public class PolicyManagementModule {
         System.out.println("\t           Policy deleted Successfully");
 
     }
-
 }

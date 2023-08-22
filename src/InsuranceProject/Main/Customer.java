@@ -1,4 +1,4 @@
-package Main;
+package InsuranceProject.Main;
 
 public class Customer {
     private Integer id;

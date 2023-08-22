@@ -1,5 +1,4 @@
-package Main;
-
+package InsuranceProject.Main;
 
 public class Policy {
     private Integer policyId;
